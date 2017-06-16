@@ -21,10 +21,15 @@ module.exports = {
   resolve: {
     extensions: ['.js', '.vue', '.json'],
     alias: {
-      {{#if_eq build "standalone"}}
       'vue$': 'vue/dist/vue.esm.js',
-      {{/if_eq}}
-      '@': resolve('src')
+      '@': resolve('src'),
+      'views': resolve('src/views'),
+      'components': resolve('src/components'),
+      'mixins': resolve('src/mixins'),
+      'service': resolve('src/service'),
+      'utils': resolve('src/utils'),
+      'common': resolve('src/common'),
+      'images': resolve('src/common/images')
     }
   },
   module: {
