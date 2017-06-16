@@ -62,5 +62,5 @@ module.exports = {
     "build/webpack.test.conf.js": false,
     "test/e2e/**/*": false
   },
-  "completeMessage": "To get started:\n\n  {{^inPlace}}cd {{destDirName}}\n  {{/inPlace}}npm install\n  npm run dev\n\nDocumentation can be found at https://github.com/xairFE/webpack"
+  "completeMessage": "To get started:\n\n  {{^inPlace}}cd {{destDirName}}\n  {{/inPlace}}npm install\n  npm run dev\n\nDocumentation can be found at https://github.com/xairFE/pwa"
 };
